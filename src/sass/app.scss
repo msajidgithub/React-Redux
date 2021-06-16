@@ -1,0 +1,46 @@
+// Fonts
+// @import url("https://fonts.googleapis.com/css?family=Nunito");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap");
+// @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;700&display=swap");
+// Variables
+@import "variables";
+
+// Mixins
+@import "mixins";
+
+// Bootstrap
+@import "~bootstrap/scss/bootstrap";
+
+// Globals
+@import "_global";
+
+
+
+#home_section{
+    margin-top: 50px !important;
+    padding: 10px 20px !important;
+}
+.MuiAppBar-colorPrimary {
+    background-color: #3f4041  !important;
+}
+
+// #navBar{
+//     display: flex;
+//     align-items: center;
+//     justify-content: space-between
+// }
+.MuiFilledInput-input{ 
+        padding: 20px 12px 18px 10px !important;
+    }
+.btnDiv{
+    margin: 10px 0px;
+}    
+#dashboardSection{
+a{
+    text-decoration: none !important;
+    color:#000;
+}
+a:hover {
+    color: #3f4041 !important
+}
+}

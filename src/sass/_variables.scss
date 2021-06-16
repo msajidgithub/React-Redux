@@ -1,0 +1,47 @@
+// Body
+$body-bg: #f8fafc;
+
+// Typography
+$font-family-sans-serif: "Nunito", sans-serif;
+$font-size-base: 0.9rem;
+$line-height-base: 1.6;
+
+// Colors
+$colors: (
+    main: #795548,
+    blue: #3490dc,
+    indigo: #6574cd,
+    purple: #9561e2,
+    pink: #f66d9b,
+    red: #e3342f,
+    orange: #f6993f,
+    yellow: #ffed4a,
+    green: #38c172,
+    teal: #4dc0b5,
+    cyan: #6cb2eb
+);
+
+@function color($colorname) {
+    @return map_get($colors, $colorname);
+}
+
+:root {
+    --th-primary: #00acee;
+    --th-secondary: #052d72;
+    --th-primary-lighten: lighten(#00acee, 10);
+    --th-primary-darken: darken(#00acee, 5);
+    --th-secondary-lighten: lighten(#052d72, 10);
+    --th-secondary-darken: darken(#052d72, 10);
+}
+
+$th-primary: var(--th-primary);
+$th-secondary: var(--th-secondary);
+$th-primary-lighten: var(--th-primary-lighten);
+$th-primary-darken: var(--th-primary-darken);
+$th-secondary-lighten: var(--th-secondary-lighten);
+$th-secondary-darken: var(--th-secondary-darken);
+
+$high: 1200px;
+$middle: 992px;
+$low: 768px;
+$x-small-max: 360px;
